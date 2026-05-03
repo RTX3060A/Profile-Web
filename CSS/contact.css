@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("background1.png");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header {
+  background-color: rgba(57, 91, 120, 0.8);
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f9f9f9;
+  border-bottom: 2px solid #f9f9f9;
+}
+
+.myform {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.inp,
+.msg {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.but {
+  width: 100%;
+  padding: 10px;
+  background-color: #334363;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.but:hover {
+  background-color: #29394f;
+}
